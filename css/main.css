@@ -1,0 +1,166 @@
+/*------Color Palette
+
+Light Brown #c69c6c;
+Grey Brown #5b4e43;
+
+
+--------------*/
+
+/*-------------------Header---------------------*/
+header {
+	background-color: white;
+	overflow: hidden;
+}
+
+body {
+	background-image: url("../images/jap_wall.jpg");
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-attachment: fixed;
+	width: 960px;
+	margin: 0 auto;
+	background-color: #c69c6c;
+}
+
+.logo {
+	float: left;
+}
+
+#title {
+	clear: right;
+	font-family: 'Prosto One', cursive;
+	font-size: 4em;
+	padding-top: 50px;
+	text-shadow:3px 2px 3px #333333;	
+}
+
+#nav {
+	width: 450px;
+	margin: 0 auto;
+	background: #666;
+	list-style-type: none;
+	padding: 0;
+	border-top: 0px; 
+	overflow: hidden;
+	float: right;
+	margin-right: 0px;
+}
+
+li.nav {
+	width: 150px;
+	float: left;	
+}
+
+a.a_nav {
+	text-decoration: none;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;	 
+	color: #5b4e43;
+	background-color: white;
+	
+}
+
+a.a_nav:hover	{
+	color: white;
+	background-color: #5b4e43;
+	
+}
+
+
+ul#gallery {
+	border: 1px solid white;
+	clear: left;
+	list-style: none;
+	overflow: hidden;
+	padding: 3px;
+}
+
+.li_gal {
+	float: left;
+	margin-left: 20px;
+	border: 5px solid #5b4e43;
+}
+
+.li_gal:hover {
+	float: left;
+	margin-left: 20px;
+	padding: 5px;
+	border: 5px solid #5b4e43;
+}
+
+/*-------------------Body---------------------*/
+
+#types {
+	text-decoration: underline;
+	font-size: 2em;
+}
+
+article {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+
+#site_page {
+	background-color: rgba(91,78,67,0.6);
+	padding: 8px;
+	overflow: hidden;
+}
+
+article {
+	-moz-column-count: 3;
+	-webkit-column-count: 3;
+	column-count: 3;
+	text-align: justify;
+}
+
+#ordering {
+	text-decoration: underline;
+	font-size: 2em;
+}
+
+.button {
+	color:#666666;
+	font-family:Comic Sans MS;
+	font-size:27px;
+	font-weight:bold;
+	padding:4px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f9f9f9), color-stop(1, #e9e9e9) );
+	background:-moz-linear-gradient( center top, #f9f9f9 5%, #e9e9e9 100% );
+	background-color:#f9f9f9;
+	-moz-border-radius:16px;
+	-webkit-border-radius:16px;
+	border-radius:16px;
+	border:2px solid #dcdcdc;
+	display:inline-block;
+	
+}
+
+.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e9e9e9), color-stop(1, #f9f9f9) );
+	background:-moz-linear-gradient( center top, #e9e9e9 5%, #f9f9f9 100% );
+	background-color:#e9e9e9;
+}
+
+#sidebar {
+	color: white;
+}
+
+
+
+
+/*-------------------Fonts---------------------*/
+@font-face {
+  font-family: 'Erica One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Erica One'), local('EricaOne-Regular'), url('http://themes.googleusercontent.com/static/fonts/ericaone/v2/7ct8ELB1awBkUBGJHiNceLO3LdcAZYWl9Si6vvxL-qU.woff') format('woff');
+}
+

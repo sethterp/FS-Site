@@ -3,6 +3,9 @@
 <head>
 	<link rel="icon" type="image/png" href="images/favicon.png">
 	<title>Sushi Life</title>
+	<link rel="stylesheet" href="css/main.css" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Prosto+One' rel='stylesheet' type='text/css'>
 	<meta charset="UTF-8" />
 </head>
 <!--Header-->
@@ -12,6 +15,7 @@
 			<div class="logo">
 				<a href="index.html"><img src="images/sushi_1.jpg" alt="sushi logo" title="logo" /></a>
 			</div>
+			
 			<nav>
 				<ul id="nav">
 					<li class="nav"><a href="index.html" class="a_nav">Home</a></li>
@@ -20,23 +24,21 @@
 				</ul>
 			</nav>
 			<hgroup>
-				<h1>Sushi Life</h1>
+				<h1 id="title">Sushi Life</h1>
 			</hgroup>
+			<ul id="gallery">
+				<li class="li_gal"><img src="images/gunkan.jpg" width="200" height="150" alt="Gunkan Sushi" title="Gunkan" /></li>
+				<li class="li_gal"><img src="images/maki.jpg" width="200" height="150" alt="Maki" title="Maki" /></li>
+				<li class="li_gal"><img src="images/sashimi.jpg" width="200" height="150" alt="Sashimi" title="Sashimi" /></li>
+				<li class="li_gal"><img src="images/nigiri.jpg" width="200" height="150" alt="Open Donut Shot" title="opdo" /></li>
+			</ul>
 		</header>
-<!--Body-->	
+<!--Content-->	
 		<section id="site_page">
-			<section id="site_content">				
-					<header>
-						<h2>Types Of Sushi</h2>
-					</header>
+			<section id="site_content">									
 				<div class="content">
-				<article>
-					
-					<img src="images/gunkan.jpg" width="200" height="150" alt="Gunkan Sushi" title="Gunkan" />
-					<img src="images/maki.jpg" width="200" height="150" alt="Maki" title="Maki" />
-					<img src="images/sashimi.jpg" width="200" height="150" alt="Sashimi" title="Sashimi" />
-					<img src="images/nigiri.jpg" width="200" height="150" alt="Open Donut Shot" title="opdo" />
-					
+				<article>					
+						<h2 id="types">Types Of Sushi</h2>
 					<h3>Gunkan Sushi</h3>
 					<p><strong>Lorem ipsum</strong> dolor sit amet, consectetur adipiscing elit. Fusce facilisis, leo id vestibulum blandit, risus purus pellentesque nunc, vitae aliquet lorem orci sed libero. Nulla at quam nulla, id volutpat dui. Nam sollicitudin placerat pulvinar. Ut vel porta lectus. Ut a erat ipsum, et venenatis magna. Donec massa sem, iaculis ac faucibus non, hendrerit venenatis nunc. Maecenas eget leo at quam ultrices ultrices quis consectetur diam. Sed imperdiet, tortor vitae pretium convallis, dolor urna congue urna, porta iaculis ipsum odio sit amet arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer vitae ullamcorper dui. Cras blandit, orci sit amet ultrices faucibus, nulla libero pulvinar odio, ut eleifend neque tellus quis metus. Donec posuere egestas dui. Nam at ipsum ante. Integer ac nunc orci.</p>
 					
@@ -54,7 +56,7 @@
 			</section>
 <!--Sidebar-->					
 			<aside id="sidebar">
-				<h3>Ordering Sushi</h3>
+				<h3 id="ordering">Ordering Sushi</h3>
 				<ol>
 					<li>Server will first serve 'Agari' (hot green tea).</li>
 					<li>At a sushi bar, first inspect the quality of the fish they have on display.</li>
@@ -63,6 +65,7 @@
 					<li>When finished with your meal, notify the server and be on your way.</li>									
 				</ol>
 			</aside>
+			<a href="mailto:seth@sethterp.com" class="button">E-Mail Us</a>
 		</section>
 <!--Footer-->					
 		<footer id="footer">
