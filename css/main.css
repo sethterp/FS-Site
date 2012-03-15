@@ -8,7 +8,7 @@ Grey Brown #5b4e43;
 
 /*-------------------Header---------------------*/
 header {
-	background-color: white;
+	background-image: url("../images/light_wool.png");
 	overflow: hidden;
 }
 
@@ -18,13 +18,19 @@ body {
 	background-repeat: no-repeat;
 	background-position: bottom right;
 	background-attachment: fixed;
-	width: 960px;
+	max-width: 960px;
 	margin: 0 auto;
 	background-color: #c69c6c;
+	font: 100%/1.5 "Helvetica Neue", Arial, Helvetica;
 }
 
 .logo {
 	float: left;
+	width: 20.83333%;
+}
+
+.logo img {
+	max-width: 100%;
 }
 
 #title {
@@ -36,19 +42,15 @@ body {
 }
 
 #nav {
-	width: 450px;
+	width: 46.875%;
 	margin: 0 auto;
-	background: #666;
 	list-style-type: none;
-	padding: 0;
-	border-top: 0px; 
 	overflow: hidden;
 	float: right;
-	margin-right: 0px;
 }
 
 li.nav {
-	width: 150px;
+	width: 33.3333%;
 	float: left;	
 }
 
@@ -60,13 +62,11 @@ a.a_nav {
 	text-align: center;	 
 	color: #5b4e43;
 	background-color: white;
-	
 }
 
 a.a_nav:hover	{
 	color: white;
 	background-color: #5b4e43;
-	
 }
 
 
@@ -75,19 +75,26 @@ ul#gallery {
 	clear: left;
 	list-style: none;
 	overflow: hidden;
-	padding: 3px;
+	padding: .3125%;
+	padding-left: 1%;
+	
 }
 
 .li_gal {
 	float: left;
-	margin-left: 20px;
+	margin-left: 2.083%;
 	border: 5px solid #5b4e43;
+	width: 20.83333%;
+}
+
+.li_gal img {
+	max-width: 100%;
 }
 
 .li_gal:hover {
 	float: left;
-	margin-left: 20px;
-	padding: 5px;
+	margin-left: 2.083%;
+	padding: .5208% 5px;
 	border: 5px solid #5b4e43;
 }
 
@@ -105,8 +112,9 @@ article {
 
 #site_page {
 	background-color: rgba(91,78,67,0.6);
-	padding: 8px;
+	padding: .833333%;
 	overflow: hidden;
+	padding: 2% 4%;
 }
 
 article {
@@ -124,7 +132,7 @@ article {
 .button {
 	color:#666666;
 	font-family:Comic Sans MS;
-	font-size:27px;
+	font-size:1.68em;
 	font-weight:bold;
 	padding:4px 24px;
 	text-decoration:none;
@@ -164,3 +172,165 @@ article {
   src: local('Erica One'), local('EricaOne-Regular'), url('http://themes.googleusercontent.com/static/fonts/ericaone/v2/7ct8ELB1awBkUBGJHiNceLO3LdcAZYWl9Si6vvxL-qU.woff') format('woff');
 }
 
+
+/*----------------Media Queries-----------------*/
+
+
+
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media screen and (min-width: 768px) and (max-width:959px) { 
+	
+	body {
+		background-image: none;
+	}
+	
+	#title {
+		clear: left;
+		padding-left: 2.5%;
+		padding-top: 5px;
+			
+	}
+	
+	#nav {
+		float: left;
+		clear: left;
+		padding-left: .1%;
+	}
+	
+	.logo {
+		padding-left: 15%;
+	}
+	
+	article {
+		-moz-column-count: 2;
+		-webkit-column-count: 2;
+		column-count: 2;
+		text-align: justify;
+	}
+	
+	a.a_nav {
+		font-size: 1.5em;
+	}
+	
+	#nav {
+		width: 60%;
+		}
+}
+	
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media screen and (min-width: 480px) and (max-width:767px) {
+	 body {
+	 	background-image: none;
+	 }
+	 
+	 #title {
+	 	clear: left;
+	 	padding-left: 2%;
+	 	padding-top: 5px;
+	 	font-size: 3em;	
+	 }
+	 
+	 #nav {
+	 	float: left;
+	 	clear: left;
+	 	padding-left: .1%;
+	 }
+	 
+	 .logo {
+	 	padding-left: 15%;
+	 	
+	 }
+	 
+	 article {
+	 	-moz-column-count: 1;
+	 	-webkit-column-count: 1;
+	 	column-count: 1;
+	 	text-align: justify;
+	 }
+	 
+	 .li_gal img {
+	 	max-height: 100px;
+	 }
+	 
+	 .li_gal:hover {
+	 	float: left;
+	 	margin-left: .1%;
+	 	padding: .1%;
+	 	border: 5px solid #5b4e43;
+	 }
+	 
+	 a.a_nav {
+	 	font-size: 1.5em;
+	 }
+	 
+	 #nav {
+	 	width: 60%;
+	 	}
+	 
+}
+	
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media screen and (max-width: 479px) {
+	body {
+		background-image: none;
+	}
+	
+	#title {
+		clear: left;
+		padding-left: 2%;
+		padding-top: 5px;
+		font-size: 3em;	
+	}
+	
+	#nav {
+		float: left;
+		clear: left;
+		padding-left: .1%;
+	}
+	
+	.logo {
+		padding-left: 15%;
+	}
+	
+	article {
+		-moz-column-count: 1;
+		-webkit-column-count: 1;
+		column-count: 1;
+		text-align: justify;
+	}
+	
+	.li_gal img {
+		max-height: 100px;
+	}
+	
+	#li_gal3 {
+		clear: left;
+		margin-top: 7px;
+	}
+	
+	#li_gal4 {
+		margin-top: 7px;
+	}
+	
+	.li_gal:hover {
+		float: left;
+		margin-left: .1%;
+		padding: .1%;
+		border: 5px solid #5b4e43;
+	}
+	
+	header{
+		background-image: none;
+		background-color: white;
+	}
+	
+	a.a_nav {
+		font-size: 1.5em;
+	}
+	
+	#nav {
+		width: 60%;
+		}
+	
+}
