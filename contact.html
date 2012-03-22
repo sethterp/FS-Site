@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<title>Sushi Life</title>
+	<link rel="stylesheet" href="css/main.css" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Prosto+One' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">	
+	<meta charset="UTF-8" />
+</head>
+<!--Header-->
+<body>
+	<div id="container">
+		<header>
+			<div class="logo">
+				<a href="index.html"><img src="images/sushi_1.png" alt="sushi logo" title="logo" /></a>
+			</div>
+			
+			<nav>
+				<ul id="nav">
+					<li class="nav"><a href="index.html" class="a_nav">Home</a></li>
+					<li class="nav"><a href="gallery.html" class="a_nav">Gallery</a></li>
+					<li class="nav"><a href="links.html" class="a_nav">Links</a></li>
+				</ul>
+			</nav>
+			<hgroup>
+				<h1 id="title">Sushi Life</h1>
+			</hgroup>
+			<ul id="gallery">
+				<li class="li_gal" id="li_gal1"><img src="images/gunkan.jpg" width="200" height="150" alt="Gunkan Sushi" title="Gunkan" /></li>
+				<li class="li_gal" id="li_gal2"><img src="images/maki.jpg" width="200" height="150" alt="Maki" title="Maki" /></li>
+				<li class="li_gal" id="li_gal3"><img src="images/sashimi.jpg" width="200" height="150" alt="Sashimi" title="Sashimi" /></li>
+				<li class="li_gal" id="li_gal4"><img src="images/nigiri.jpg" width="200" height="150" alt="Open Donut Shot" title="opdo" /></li>
+			</ul>
+		</header>
+<!--Content-->	
+		<section id="site_page">
+			<section id="form">
+					<form method="get" action="mailto:seth@sethterp.com">
+						<div>
+							<label for="first_name">First Name</label>
+							<input type="text" name="first_name" id="first_name" />
+						</div>
+						
+						<div>
+							<label for="last_name">Last Name</label>
+							<input type="text" name="last_name" id="last_name" />
+						</div>
+						
+						<div>
+							<label for="phone_number">Phone Number</label>
+							<input type="text" name="phone_number" id="phone_number" />
+						</div>
+						
+						<div>
+							<label for="email">E-Mail Address</label>
+							<input type="text" name="email" id="email" />
+						</div>
+						
+						<div>
+							<label for="subject">Subject</label>
+						</div>
+						<div>
+							<select name="subject" id="subject">
+								<option>Sushi Advice</option>
+								<option>Dealer/ Resteraunt Locations</option>
+								<option>Business</option>
+								<option>Other</option>
+							</select>
+						</div>
+						<div>
+							<label id="message">Message</label>
+							</br>
+							<textarea rows="30"	cols="35" name="message" id="message_box"></textarea>
+						</div>
+						
+						<div>
+							<p class="label_field_pair">
+							<input type="checkbox" name="human" id="human"/>
+							<label for="human">Check this box if you are human and live on planet earth.</label>
+							</p>
+						</div>
+						<input type="submit" />
+					</form>
+			</section>			
+		</section>
+<!--Footer-->					
+		<footer id="footer">
+			<div class="bottom">Copyright - Seth Terp Web Design<br />
+				
+				<a href="http://www.sethterp.com" class="new_window">Website</a> developed by Seth Terp Web Design
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

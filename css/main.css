@@ -161,6 +161,68 @@ article {
 	color: white;
 }
 
+footer {
+	padding: 2%;
+}
+
+#form {
+	background-color: #5B4E43;
+	margin: 0;
+	padding: 15px;
+	color: #f2fbff;
+	border-top: solid #CABFB5 1px;
+	border-left: solid #CABFB5 1px;
+	border-right: solid #38332F 1px;
+	border-bottom: solid #38332F 1px;
+	
+}
+
+#hospital {
+	background-color: #5B4E43;
+	color: #f2fbff;
+	border-top: solid #CABFB5 1px;
+	border-left: solid #CABFB5 1px;
+	border-right: solid #38332F 1px;
+	border-bottom: solid #38332F 1px;
+	font: white;
+	margin: 0;
+	padding: 15px;
+}
+
+dl {
+	margin-bottom: 0;
+}
+
+th {
+	text-decoration: underline;
+	text-align: left;
+}
+
+#first_name {
+ 	margin-left: 35px;
+}
+
+#phone_number {
+ 	margin-left: 6px;
+}
+
+#last_name {
+ 	margin-left: 35px;
+}
+
+#email {
+	margin-left: 5px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td {
+	border: solid 1px white;
+	padding: 2% 3%;
+}
+
 
 
 
